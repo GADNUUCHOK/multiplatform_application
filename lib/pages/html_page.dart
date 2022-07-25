@@ -116,7 +116,6 @@ class _HtmlPageState extends State<HtmlPage> {
                         onChanged: (text) {
                           enterText = text;
                         },
-                        obscureText: true,
                         decoration: const InputDecoration(
                           border: OutlineInputBorder(),
                           labelText: 'URL',

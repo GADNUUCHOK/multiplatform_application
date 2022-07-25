@@ -121,7 +121,6 @@ class _WebViewPageState extends State<WebViewPage> {
                         onChanged: (text) {
                           enterText = text;
                         },
-                        obscureText: true,
                         decoration: const InputDecoration(
                           border: OutlineInputBorder(),
                           labelText: 'URL',
